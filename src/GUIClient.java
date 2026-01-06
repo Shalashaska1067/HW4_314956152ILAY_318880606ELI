@@ -76,7 +76,7 @@ public class GUIClient extends JFrame implements ActionListener {
 			for (int i = 0; i < qunt.length(); i++) {
 				if (!Character.isDigit(qunt.charAt(i))) {
 					errormsg.setForeground(Color.RED);
-					errormsg.setText("Number of item must be numbers");
+					errormsg.setText("Quantity of item must be numbers");
 					return;
 				}
 			}
